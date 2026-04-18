@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background: #ecf0f1;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            background: #3498db;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Website Saya</h1>
+    <p>Template siap pakai</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Tentang</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h2>Selamat Datang</h2>
+        <p>Ini adalah template website sederhana yang bisa langsung kamu gunakan.</p>
+    </div>
+
+    <div class="card">
+        <h2>Fitur</h2>
+        <ul>
+            <li>Desain sederhana</li>
+            <li>Mudah diedit</li>
+            <li>Responsive</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Interaksi</h2>
+        <button onclick="tampilPesan()">Klik Saya</button>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Website Saya</p>
+</footer>
+
+<script>
+function tampilPesan() {
+    alert("Halo! Website kamu sudah jalan 🚀");
+}
+</script>
+
+</body>
+</html>
